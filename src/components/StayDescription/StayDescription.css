@@ -1,0 +1,15 @@
+.DescripRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.light{
+    font-weight: ligher;
+    color: #777777;
+    text-overflow: ellipsis;
+}

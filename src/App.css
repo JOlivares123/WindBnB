@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.StayContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
