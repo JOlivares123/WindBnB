@@ -5,9 +5,3 @@
   flex-direction: column;
 
 }
-
-.StayContainer{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}

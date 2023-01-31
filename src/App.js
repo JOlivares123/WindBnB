@@ -1,4 +1,5 @@
 import { StayTile } from './components/StayTile/StayTile';
+import {StayResultsContainer} from './components/StayResultsContainer/StayResultsContainer'
 import './App.css';
 import data from './challenge_assets/stays.json'
 
@@ -6,7 +7,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className='StayContainer'>
+      <StayResultsContainer
+        data={data}
+      />
+      {/* <div className='StayContainer'>
 
 
       {data.map((stay) => {
@@ -21,7 +25,7 @@ const App = () => {
           />
         )
       })}
-            </div>
+      </div> */}
     </div>
   );
 }

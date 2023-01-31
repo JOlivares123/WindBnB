@@ -1,11 +1,12 @@
 .RoundImage {
     border-radius: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
     overflow: hidden;
-    max-height: 333.33px;
-    max-width: 500px;
+    max-height: 266px;
+    max-width: 400px;
+    width:400px;
+    height: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
 
 }

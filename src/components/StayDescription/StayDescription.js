@@ -8,7 +8,7 @@ export const StayDescription = ({isSuperHost, rating, stayType, stayBds, title})
             return stayType
         }
         else{
-            return `${stayType} ${stayBds !== null ? `. ${stayBds} beds` : ''}`
+            return `${stayType} ${stayBds !== null ? `- ${stayBds} beds` : ''}`
         }
     }
 
