@@ -6,12 +6,12 @@ import './StayResultsContainer.css'
 export const StayResultsContainer = ({data}) => {
     return(
         <div className='MainContainer'>
-            <div>
+            <div className='ResultsHeader'>
                 <h2>
-
+                    Stays in Finland
                 </h2>
                 <p>
-
+                    {data.length}+ stays
                 </p>
             </div>
             <div className='StayContainer'>
