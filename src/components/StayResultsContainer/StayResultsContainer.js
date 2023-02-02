@@ -18,6 +18,7 @@ export const StayResultsContainer = ({data}) => {
                 {data.map((stay) => {
                     return(
                     <StayTile
+                        key={Date.now()}
                         imgPath={stay.photo}
                         imgDesc={stay.title}
                         isSuperHost={stay.superHost}

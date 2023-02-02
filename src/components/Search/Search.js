@@ -2,9 +2,10 @@ import {FaSearch} from 'react-icons/fa'
 
 import './Search.css'
 
-export const Search = () => {
+export const Search = ({revealModal}) => {
+
     return(
-        <div className="btn-group shadow" role='group'>
+        <div className="btn-group shadow" role='group' onClick={()=>revealModal()}>
             <button type='button' className="btn reg-btn btn-outline-secondary">
                 <span className='text-black'>Location</span>
             </button>

@@ -1,0 +1,14 @@
+.modal-content{
+    width: 100vw !important;
+    height: 45vh !important;
+    top:0;
+    left:0;
+    position: absolute !important;
+}
+
+.modal-dialog{
+    width: 100vw;
+    height: 45vh;
+    position: unset;
+}
+
