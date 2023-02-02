@@ -7,8 +7,8 @@ export const SearchModal = ({hideModal, revealModal, show, locations}) => {
         <Modal animation={false} show={show} onHide={hideModal}>
             <Modal.Body>
                 <div className="d-flex col-12 justify-content-center mt-5">
-                    <div>
-                        <input className="col-4 me-3" type='input'/>
+                    <div className="col-4 me-3">
+                        <input className="col-12" type='input'/>
                         <LocationList locations={locations}/>
                     </div>
 
